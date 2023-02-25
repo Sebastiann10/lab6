@@ -10,7 +10,7 @@ public class Components {
     }
 
     public static void main(String[] args) {
-        File f = new File("../"+args[0]);
+        File f = new File(args[0]);
         Scanner sc = new Scanner(f);
         int size = sc.nextInt();
         int[][] vals = new int[size][size];
